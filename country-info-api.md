@@ -1,4 +1,4 @@
-# Country info API [![Build Status](https://api.travis-ci.org/toddmotto/public-apis.svg)](https://travis-ci.org/toddmotto/public-apis)
+# [Country info API](https://apishub.com/abdulqadir/country-info)
 
 Get information about countries
 
