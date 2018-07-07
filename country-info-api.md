@@ -1,6 +1,6 @@
 # [Country info API](https://apishub.com/abdulqadir/country-info)
 
-An API to Get information about any country by giving country name in url
+Get information about countries
 
 ### Input Params
 Parameter | Type | Requirement | Explanation |
@@ -108,4 +108,4 @@ Parameter | Type | Requirement | Explanation |
 ]
 ```
 ### Demo
-[Try here](https://apishub.com/abdulqadir/country-info)
+[Try here](https://apishub.com/abdulqadir/country-info#try-now)
