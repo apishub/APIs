@@ -8,39 +8,16 @@ Parameter | Type | Requirement | Explanation |
 | name | string | required | Search by country name. It can be the native name or partial name |
 
 
-### Cryptocurrency
-API | Description | Auth | HTTPS | CORS | Link |
-|---|---|---|---|---|---|
-| Binance | Exchange for Trading Cryptocurrencies based in China | `apiKey` | Yes | Unknown | [Go!](https://github.com/binance-exchange/binance-official-api-docs) |
-| BitcoinCharts | Financial and Technical Data related to the Bitcoin Network | No | Yes | Unknown | [Go!](https://bitcoincharts.com/about/exchanges/) |
-| Bitfinex | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.bitfinex.com/docs/introduction) |
-| Bitmex | Real-Time Cryptocurrency derivatives trading platform based in Hong Kong | `apiKey` | Yes | Unknown | [Go!](https://www.bitmex.com/app/apiOverview) |
-| Bittrex | Next Generation Crypto Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://bittrex.com/Home/Api) |
-| Block | Bitcoin Payment, Wallet & Transaction Data | `apiKey` | Yes | Unknown | [Go!](https://www.block.io/docs/basic) |
-| Blockchain | Bitcoin Payment, Wallet & Transaction Data | No | Yes | Unknown | [Go!](https://www.blockchain.info/api) |
-| CoinAPI | All Currency Exchanges integrate under a single api | `apiKey` | Yes | No | [Go!](https://docs.coinapi.io/) |
-| Coinbase | Bitcoin, Litecoin and Ethereum Prices | `apiKey` | Yes | Unknown | [Go!](https://developers.coinbase.com) |
-| CoinBin | Cryptocurrency information | No | Yes | Unknown | [Go!](https://coinbin.org/) |
-| CoinDesk | Bitcoin Price Index | No | No | Unknown | [Go!](http://www.coindesk.com/api/) |
-| CoinMarketCap | Cryptocurrencies Prices | No | Yes | Unknown | [Go!](https://coinmarketcap.com/api/) |
-| CryptoCompare | Cryptocurrencies Comparison | No | Yes | Unknown | [Go!](https://www.cryptocompare.com/api#) |
-| Cryptonator | Cryptocurrencies Exchange Rates | No | Yes | Unknown | [Go!](https://www.cryptonator.com/api/) |
-| GDAX | Cryptocurrency Trading Platform | `apiKey` | Yes | Unknown | [Go!](https://docs.gdax.com/#api) |
-| Livecoin | Cryptocurrency Exchange | No | Yes | Unknown | [Go!](https://www.livecoin.net/api) |
-| MercadoBitcoin | Brazilian Cryptocurrency Information | No | Yes | Unknown | [Go!](https://www.mercadobitcoin.net/api-doc/) |
-| Nexchange | Automated cryptocurrency exchange service | No | No | Yes | [Go!](https://nexchange2.docs.apiary.io/) |
-| Poloniex | US based digital asset exchange | `apiKey` | Yes | Unknown | [Go!](https://poloniex.com/support/api/) |
-| WorldCoinIndex | Cryptocurrencies Prices | `apiKey` | Yes | Unknown | [Go!](https://www.worldcoinindex.com/apiservice) |
+### Example Requests
 
-### Currency Exchange
-API | Description | Auth | HTTPS | CORS | Link |
-|---|---|---|---|---|---|
-| 1Forge | Forex currency market data | `apiKey` | Yes | Unknown | [Go!](https://1forge.com/forex-data-api/api-documentation) |
-| Currencylayer | Exchange rates and currency conversion | `apiKey` | Yes | Unknown | [Go!](https://currencylayer.com/documentation) |
-| Czech National Bank | A collection of exchange rates | No | Yes | Unknown | [Go!](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) |
-| Exchangeratesapi.io | Exchange rates with currency conversion | No | Yes | Yes | [Go!](https://exchangeratesapi.io) |
-| Fixer.io | Exchange rates and currency conversion | `apiKey` | Yes | Unknown | [Go!](http://fixer.io) |
-| LabStack | Accurate and reliable live currency exchange rates for over 150 symbols | `apiKey` | Yes | Yes | [Go!](https://labstack.com/docs/api/currency) |
+```json
+```
+
+### Example Response
+
+```json
+[{&quot;name&quot;:&quot;United States of America&quot;,&quot;topLevelDomain&quot;:[&quot;.us&quot;],&quot;alpha2Code&quot;:&quot;US&quot;,&quot;alpha3Code&quot;:&quot;USA&quot;,&quot;callingCodes&quot;:[&quot;1&quot;],&quot;capital&quot;:&quot;Washington, D.C.&quot;,&quot;altSpellings&quot;:[&quot;US&quot;,&quot;USA&quot;,&quot;United States of America&quot;],&quot;region&quot;:&quot;Americas&quot;,&quot;subregion&quot;:&quot;Northern America&quot;,&quot;population&quot;:323947000,&quot;latlng&quot;:[38.0,-97.0],&quot;demonym&quot;:&quot;American&quot;,&quot;area&quot;:9629091.0,&quot;gini&quot;:48.0,&quot;timezones&quot;:[&quot;UTC-12:00&quot;,&quot;UTC-11:00&quot;,&quot;UTC-10:00&quot;,&quot;UTC-09:00&quot;,&quot;UTC-08:00&quot;,&quot;UTC-07:00&quot;,&quot;UTC-06:00&quot;,&quot;UTC-05:00&quot;,&quot;UTC-04:00&quot;,&quot;UTC+10:00&quot;,&quot;UTC+12:00&quot;],&quot;borders&quot;:[&quot;CAN&quot;,&quot;MEX&quot;],&quot;nativeName&quot;:&quot;United States&quot;,&quot;numericCode&quot;:&quot;840&quot;,&quot;currencies&quot;:[{&quot;code&quot;:&quot;USD&quot;,&quot;name&quot;:&quot;United States dollar&quot;,&quot;symbol&quot;:&quot;$&quot;}],&quot;languages&quot;:[{&quot;iso639_1&quot;:&quot;en&quot;,&quot;iso639_2&quot;:&quot;eng&quot;,&quot;name&quot;:&quot;English&quot;,&quot;nativeName&quot;:&quot;English&quot;}],&quot;translations&quot;:{&quot;de&quot;:&quot;Vereinigte Staaten von Amerika&quot;,&quot;es&quot;:&quot;Estados Unidos&quot;,&quot;fr&quot;:&quot;États-Unis&quot;,&quot;ja&quot;:&quot;アメリカ合衆国&quot;,&quot;it&quot;:&quot;Stati Uniti D&#039;America&quot;,&quot;br&quot;:&quot;Estados Unidos&quot;,&quot;pt&quot;:&quot;Estados Unidos&quot;,&quot;nl&quot;:&quot;Verenigde Staten&quot;,&quot;hr&quot;:&quot;Sjedinjene Američke Države&quot;,&quot;fa&quot;:&quot;ایالات متحده آمریکا&quot;},&quot;flag&quot;:&quot;https://restcountries.eu/data/usa.svg&quot;,&quot;regionalBlocs&quot;:[{&quot;acronym&quot;:&quot;NAFTA&quot;,&quot;name&quot;:&quot;North American Free Trade Agreement&quot;,&quot;otherAcronyms&quot;:[],&quot;otherNames&quot;:[&quot;Tratado de Libre Comercio de América del Norte&quot;,&quot;Accord de Libre-échange Nord-Américain&quot;]}],&quot;cioc&quot;:&quot;USA&quot;}]
+```
 
 ### Data Validation
 API | Description | Auth | HTTPS | CORS | Link |
