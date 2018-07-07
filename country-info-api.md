@@ -4,9 +4,9 @@ Get information about countries
 
 ### Input Params
 Parameter | Type | Requirement | Explanation |
-|---|---|---|---|---|---|
-    | name | string | required | Search by country name. It can be the native name or partial name |
-  
+|---|---|---|---|
+| name | string | required | Search by country name. It can be the native name or partial name |
+
 
 ### Cryptocurrency
 API | Description | Auth | HTTPS | CORS | Link |
